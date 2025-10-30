@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 48 83% 94%; /* Original: #fff8e1 */
+  --foreground: 0 0% 13%; /* Original: #212121 */
+  --card: 0 0% 100%; /* Original: #ffffff */
+  --card-foreground: 0 0% 13%;
+  --primary: 24 100% 40%; /* Original: #cc5500 */
+  --primary-foreground: 0 0% 100%; /* Warna teks di atas primary */
+  --secondary: 45 98% 58%; /* Original: #fbc02d */
+  --border: 0 0% 93%; /* Original: #eee */
+  --muted-foreground: 0 0% 33%; /* Original: #555 */
+}
+
+.dark {
+  --background: 0 0% 7%; /* Original: #121212 */
+  --foreground: 0 0% 96%; /* Original: #F0F2F5 */
+  --card: 0 0% 12%; /* Original: #1E1E1E */
+  --card-foreground: 0 0% 96%;
+  --primary: 33 100% 50%; /* Original: #ff8c00 */
+  --primary-foreground: 0 0% 12%;
+  --secondary: 51 100% 50%; /* Original: #ffd700 */
+  --border: 0 0% 20%; /* Original: #333 */
+  --muted-foreground: 0 0% 66%; /* Original: #a9a9a9 */
+}

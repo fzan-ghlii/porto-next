@@ -1,0 +1,98 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "about": "About Me",
+    "experience": "Experience",
+    "skills": "Skills",
+    "portfolio": "Portfolio",
+    "contact": "Contact Me"
+  },
+  "HomePage": {
+    "greeting": "Hello, I'm Fauzan",
+    "typedString1": "Web Developer",
+    "typedString2": "Fintech Enthusiast",
+    "typedString3": "Capital Market Analyst",
+    "description": "Welcome! I'm a Digital Business student passionate about the intersection of finance and technology. Explore my work in web development and capital market analysis.",
+    "buttonContact": "Contact Me"
+  },
+  "AboutPage": {
+    "title": "About Me",
+    "subtitle": "My Journey",
+    "p1": "I am a Digital Business undergraduate specializing in the dynamic fields of web development and financial technology. My core passion lies in using technical market analysis and modern digital tools to advance capital market education for a wider audience.",
+    "p2": "My leadership experience includes serving as Vice Head of the Investment Division at KSPM GIBEI UNIMED and as a Fundraising Staff for Sikkola Rakyat, where I've honed skills in financial literacy and community outreach. An internship with Commission E at the North Sumatra DPRD also provided me with a unique understanding of how public policy shapes social welfare initiatives.",
+    "p3": "Driven by these experiences, I am actively seeking to apply my skills in a professional setting. I am eager to contribute to collaborative, hands-on projects and am particularly interested in opportunities within the fintech and digital product sectors that focus on data-driven investing and innovation.",
+    "buttonMore": "More About Me"
+  },
+  "ExperiencePage": {
+    "title": "Experience & Education",
+    "item1_title": "Digital Business Student",
+    "item1_org": "Medan State University",
+    "item1_desc": "Majoring in a curriculum focused on leveraging digital technology for business innovation, covering strategies for both internal process optimization and external market expansion.",
+    "item2_title": "Vice Head of Investment Division",
+    "item2_org": "KSPM GIBEI UNIMED",
+    "item2_desc": "Led educational programs on financial literacy and capital markets. Developed content on stock analysis and organized public events to enhance investment knowledge.",
+    "item3_title": "Fundraising Staff",
+    "item3_org": "Sikkola Rakyat",
+    "item3_desc": "Drove fundraising efforts by creating innovative campaigns and exploring entrepreneurial ventures. Successfully built strategic partnerships to secure sponsorships for community-based education programs.",
+    "item4_title": "Internship",
+    "item4_org": "DPRD North Sumatra (Commission E)",
+    "item4_desc": "Gained hands-on experience in public administration by managing official correspondence, documenting meeting proceedings, and supporting team coordination efforts within the commission.",
+    "item5_title": "Committee Member",
+    "item5_org": "Stocklab Investment Competition",
+    "item5_desc": "Contributed to a major investment competition by supervising the Stocklab simulation, managing in-game financial transactions, and ensuring a smooth and orderly event flow.",
+    "item6_title": "Natural Sciences Student",
+    "item6_org": "Senior High School 1 Percut Sei Tuan",
+    "item6_desc": "Completed a rigorous Natural Sciences curriculum, developing a strong analytical and quantitative foundation through core subjects like Mathematics, Physics, and Chemistry."
+  },
+  "SkillsPage": {
+    "title": "My Skills",
+    "technicalTitle": "Technical Skills",
+    "softTitle": "Soft Skills",
+    "skill_office": "Microsoft Office",
+    "skill_stock": "Stock Analysis",
+    "skill_html_css": "HTML & CSS",
+    "skill_js": "JavaScript",
+    "skill_php": "PHP",
+    "skill_learn": "Quick Learn",
+    "skill_problem": "Problem Solving",
+    "skill_adapt": "Adaptation",
+    "skill_lead": "Leadership",
+    "skill_team": "Team Working"
+  },
+  "PortfolioPage": {
+    "title": "Projects",
+    "project1_title": "WeeFood",
+    "project1_desc_short": "Restaurant catalog PWA with offline capabilities.",
+    "project1_desc_long": "A restaurant catalog Progressive Web App (PWA) that fetches data from a public API. It features offline capabilities and installability, utilizing IndexedDB for local data storage, retrieval, and deletion, ensuring full functionality without an internet connection. The app is built with high accessibility standards.",
+    "project2_title": "Sneagefy Shop",
+    "project2_desc_short": "Modern landing page for a fictional sneaker shop.",
+    "project2_desc_long": "A clean and modern landing page designed for Sneagefy Shop, showcasing a diverse collection of footwear. The project focuses on creating an engaging visual experience to attract customers and highlight featured products.",
+    "project3_title": "Bookshelf Apps",
+    "project3_desc_short": "Bookshelf management app with data persistence.",
+    "project3_desc_long": "A dynamic bookshelf management application built with a focus on user interaction and data persistence. The app allows users to add, manage, and categorize books based on their reading status (completed or in-progress), with all data handled seamlessly in the browser.",
+    "buttonPreview": "Preview",
+    "buttonDescription": "Description",
+    "modalTitle": "Project Description",
+    "modalButtonSource": "Source Code",
+    "modalButtonClose": "Close"
+  },
+  "ContactPage": {
+    "title": "Contact Me",
+    "formTitle": "Send a Message",
+    "labelName": "Name",
+    "placeholderName": "Your Name",
+    "labelEmail": "Email",
+    "placeholderEmail": "Your Email",
+    "labelMessage": "Message",
+    "placeholderMessage": "Your Message",
+    "buttonSend": "Send Message",
+    "buttonSending": "Sending...",
+    "successMessage": "Thank you! Your message has been sent.",
+    "errorMessageDefault": "An error occurred: Please try again.",
+    "errorMessageNetwork": "A network error occurred. Please check your connection.",
+    "infoTitle": "Contact Information",
+    "infoLocation": "Jl. Budi Utomo, Medan, Indonesia",
+    "buttonCV": "Download My CV"
+  }
+}
+

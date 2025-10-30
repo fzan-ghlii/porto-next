@@ -1,0 +1,98 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "about": "Tentang Saya",
+    "experience": "Pengalaman",
+    "skills": "Keahlian",
+    "portfolio": "Portofolio",
+    "contact": "Hubungi Saya"
+  },
+  "HomePage": {
+    "greeting": "Halo, saya Fauzan",
+    "typedString1": "Web Developer",
+    "typedString2": "Penggemar Fintech",
+    "typedString3": "Analis Pasar Modal",
+    "description": "Selamat datang! Saya seorang mahasiswa Bisnis Digital dengan gairah di persimpangan keuangan dan teknologi. Jelajahi karya saya di pengembangan web dan analisis pasar modal.",
+    "buttonContact": "Hubungi Saya"
+  },
+  "AboutPage": {
+    "title": "Tentang Saya",
+    "subtitle": "Perjalanan Saya",
+    "p1": "Saya seorang sarjana Bisnis Digital yang berspesialisasi dalam bidang dinamis pengembangan web dan teknologi keuangan. Gairah inti saya terletak pada penggunaan analisis pasar teknis dan alat digital modern untuk memajukan pendidikan pasar modal bagi audiens yang lebih luas.",
+    "p2": "Pengalaman kepemimpinan saya termasuk menjabat sebagai Wakil Kepala Divisi Investasi di KSPM GIBEI UNIMED dan sebagai Staf Penggalangan Dana untuk Sikkola Rakyat, di mana saya mengasah keterampilan dalam literasi keuangan dan penjangkauan masyarakat. Magang di Komisi E DPRD Sumatera Utara juga memberi saya pemahaman unik tentang bagaimana kebijakan publik membentuk inisiatif kesejahteraan sosial.",
+    "p3": "Didorong oleh pengalaman-pengalaman ini, saya aktif mencari cara untuk menerapkan keterampilan saya di lingkungan profesional. Saya bersemangat untuk berkontribusi pada proyek kolaboratif dan langsung, dan sangat tertarik pada peluang di sektor fintech dan produk digital yang berfokus pada investasi berbasis data dan inovasi.",
+    "buttonMore": "Lebih Lanjut"
+  },
+  "ExperiencePage": {
+    "title": "Pengalaman & Pendidikan",
+    "item1_title": "Mahasiswa Bisnis Digital",
+    "item1_org": "Universitas Negeri Medan",
+    "item1_desc": "Mengambil jurusan dalam kurikulum yang berfokus pada pemanfaatan teknologi digital untuk inovasi bisnis, mencakup strategi untuk optimalisasi proses internal dan ekspansi pasar eksternal.",
+    "item2_title": "Wakil Kepala Divisi Investasi",
+    "item2_org": "KSPM GIBEI UNIMED",
+    "item2_desc": "Memimpin program edukasi tentang literasi keuangan dan pasar modal. Mengembangkan konten tentang analisis saham dan mengorganisir acara publik untuk meningkatkan pengetahuan investasi.",
+    "item3_title": "Staf Penggalangan Dana",
+    "item3_org": "Sikkola Rakyat",
+    "item3_desc": "Mendorong upaya penggalangan dana dengan membuat kampanye inovatif dan menjelajahi usaha kewirausahaan. Berhasil membangun kemitraan strategis untuk mendapatkan sponsor bagi program pendidikan berbasis masyarakat.",
+    "item4_title": "Magang",
+    "item4_org": "DPRD Sumatera Utara (Komisi E)",
+    "item4_desc": "Mendapat pengalaman langsung dalam administrasi publik dengan mengelola korespondensi resmi, mendokumentasikan proses rapat, dan mendukung upaya koordinasi tim di dalam komisi.",
+    "item5_title": "Anggota Panitia",
+    "item5_org": "Stocklab Investment Competition",
+    "item5_desc": "Berkontribusi pada kompetisi investasi besar dengan mengawasi simulasi Stocklab, mengelola transaksi keuangan dalam game, dan memastikan alur acara yang lancar dan tertib.",
+    "item6_title": "Siswa Ilmu Pengetahuan Alam",
+    "item6_org": "SMA Negeri 1 Percut Sei Tuan",
+    "item6_desc": "Menyelesaikan kurikulum IPA yang ketat, mengembangkan landasan analitis dan kuantitatif yang kuat melalui mata pelajaran inti seperti Matematika, Fisika, dan Kimia."
+  },
+  "SkillsPage": {
+    "title": "Keahlian Saya",
+    "technicalTitle": "Keahlian Teknis",
+    "softTitle": "Keahlian Non-Teknis",
+    "skill_office": "Microsoft Office",
+    "skill_stock": "Analisis Saham",
+    "skill_html_css": "HTML & CSS",
+    "skill_js": "JavaScript",
+    "skill_php": "PHP",
+    "skill_learn": "Pembelajar Cepat",
+    "skill_problem": "Pemecahan Masalah",
+    "skill_adapt": "Adaptasi",
+    "skill_lead": "Kepemimpinan",
+    "skill_team": "Kerja Tim"
+  },
+  "PortfolioPage": {
+    "title": "Proyek",
+    "project1_title": "WeeFood",
+    "project1_desc_short": "PWA katalog restoran dengan kemampuan offline.",
+    "project1_desc_long": "Sebuah Progressive Web App (PWA) katalog restoran yang mengambil data dari API publik. Ini fitur kemampuan offline dan dapat diinstal, memanfaatkan IndexedDB untuk penyimpanan, pengambilan, dan penghapusan data lokal, memastikan fungsionalitas penuh tanpa koneksi internet. Aplikasi ini dibangun dengan standar aksesibilitas tinggi.",
+    "project2_title": "Sneagefy Shop",
+    "project2_desc_short": "Halaman arahan modern untuk toko sneaker fiksi.",
+    "project2_desc_long": "Halaman arahan yang bersih dan modern yang dirancang untuk Sneagefy Shop, menampilkan beragam koleksi alas kaki. Proyek ini berfokus pada penciptaan pengalaman visual yang menarik untuk menarik pelanggan dan menyoroti produk unggulan.",
+    "project3_title": "Bookshelf Apps",
+    "project3_desc_short": "Aplikasi manajemen rak buku dengan persistensi data.",
+    "project3_desc_long": "Aplikasi manajemen rak buku dinamis yang dibangun dengan fokus pada interaksi pengguna dan persistensi data. Aplikasi ini memungkinkan pengguna untuk menambah, mengelola, dan mengkategorikan buku berdasarkan status baca mereka (selesai atau sedang berlangsung), dengan semua data ditangani secara mulus di browser.",
+    "buttonPreview": "Pratinjau",
+    "buttonDescription": "Deskripsi",
+    "modalTitle": "Deskripsi Proyek",
+    "modalButtonSource": "Kode Sumber",
+    "modalButtonClose": "Tutup"
+  },
+  "ContactPage": {
+    "title": "Hubungi Saya",
+    "formTitle": "Kirim Pesan",
+    "labelName": "Nama",
+    "placeholderName": "Nama Anda",
+    "labelEmail": "Email",
+    "placeholderEmail": "Email Anda",
+    "labelMessage": "Pesan",
+    "placeholderMessage": "Pesan Anda",
+    "buttonSend": "Kirim Pesan",
+    "buttonSending": "Mengirim...",
+    "successMessage": "Terima kasih! Pesan Anda telah terkirim.",
+    "errorMessageDefault": "Terjadi kesalahan: Silakan coba lagi.",
+    "errorMessageNetwork": "Terjadi kesalahan koneksi. Silakan periksa jaringan Anda.",
+    "infoTitle": "Informasi Kontak",
+    "infoLocation": "Jl. Budi Utomo, Medan, Indonesia",
+    "buttonCV": "Unduh CV Saya"
+  }
+}
+
