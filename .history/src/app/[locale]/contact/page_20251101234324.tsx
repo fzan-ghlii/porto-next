@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { MapPin, Mail, Phone, Linkedin, Github, Instagram, Download } from 'lucide-react';
+import Link from 'next/link';
 import { useTranslations } from '@/context/TranslationsProvider';
 
 export default function ContactPage() {

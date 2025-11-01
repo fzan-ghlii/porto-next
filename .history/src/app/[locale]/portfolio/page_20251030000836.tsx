@@ -5,7 +5,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Eye, Info, Github } from 'lucide-react';
-import { useTranslations } from '@/context/TranslationsProvider';
+import { useTranslations } from 'next-intl'; // Import
+
 // Tipe data untuk Project
 type Project = {
   key: string;

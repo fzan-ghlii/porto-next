@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import { useTranslations } from '@/context/TranslationsProvider';
 
+
 // Data sekarang hanya berisi data non-teks dan 'kunci' terjemahan
 const experienceData = [
   { date: 'August 2023 - Now', key: 'item1' },

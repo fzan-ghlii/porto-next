@@ -1,6 +1,6 @@
 'use client';
 
-import Link from 'next/link';
+import { Link } from '@/navigation'; // PERBAIKI DI SINI
 import Image from 'next/image';
 import { Linkedin, Github, Instagram, Twitter } from 'lucide-react';
 import { TypeAnimation } from 'react-type-animation';

@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { useTranslations } from '@/context/TranslationsProvider';
+import { useTranslations } from 'next-intl'; // Import
 
 // Data untuk Technical Skills
 const technicalSkills = [

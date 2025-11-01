@@ -14,22 +14,10 @@ export default function Header() {
   const { theme, setTheme } = useTheme();
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
-  // hook usePathname() dari next/navigation akan mengembalikan path LENGKAP (/en/about)
-  // Kita perlu memodifikasinya agar perbandingan berfungsi
-  const fullPathname = usePathname();
-  
-  // Fungsi helper untuk mendapatkan path relatif (misal: /about)
-  const getRelativePath = (path: string) => {
-    const segments = path.split('/');
-    if (segments.length > 2 && (segments[1] === 'en' || segments[1] === 'id')) {
-      return `/${segments.slice(2).join('/')}` || '/';
-    }
-    return path;
-  };
-  
-  const pathname = getRelativePath(fullPathname); // misal: /about
+  const pathname = usePathname(); // Sekarang dari @/navigation
 
   // Daftar link navigasi
+  // Sekarang kita ambil label dari kamus 't'
   const navLinks = [
     { href: '/', label: t('home') },
     { href: '/about', label: t('about') },
@@ -65,7 +53,7 @@ export default function Header() {
       }`}
     >
       <nav className="container mx-auto flex items-center justify-between p-4 md:px-8">
-        {/* Logo (Link dari next/link otomatis menangani locale) */}
+        {/* Logo */}
         <Link href="/" className="text-2xl font-bold text-foreground shrink-0">
           Fauzan Al Gholi
         </Link>
@@ -76,10 +64,11 @@ export default function Header() {
             <ul className="flex items-center space-x-8">
                 {navLinks.map((link) => (
                     <li key={link.href}>
-                    {/* Gunakan 'Link' dari next/link */}
+                    {/* Gunakan 'Link' dari @/navigation */}
                     <Link
                         href={link.href}
                         className={`relative font-medium transition-colors duration-300 hover:text-primary ${
+                        // 'pathname' sekarang adalah / atau /about, jadi perbandingannya akurat
                         pathname === link.href ? 'text-primary' : 'text-foreground'
                         }`}
                     >
@@ -92,7 +81,7 @@ export default function Header() {
                 ))}
             </ul>
         
-            {/* Theme Toggle Switch (Tidak berubah) */}
+            {/* Theme Toggle Switch */}
             <div className="flex items-center space-x-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-foreground"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
                 <label className="relative inline-block w-12 h-6 cursor-pointer">
@@ -111,7 +100,7 @@ export default function Header() {
             </div>
         </div>
            
-        {/* Tombol Hamburger (Tidak berubah) */}
+        {/* Tombol Hamburger (hanya untuk mobile) */}
         <button
             onClick={() => setIsOpen(!isOpen)}
             className="md:hidden z-50 p-2"
@@ -140,7 +129,7 @@ export default function Header() {
                 </Link>
               </li>
             ))}
-            {/* Theme Toggle di Menu Mobile (Tidak berubah) */}
+            {/* Theme Toggle di Menu Mobile */}
             <li className='absolute bottom-10'>
                 <div className="flex items-center space-x-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-foreground"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>

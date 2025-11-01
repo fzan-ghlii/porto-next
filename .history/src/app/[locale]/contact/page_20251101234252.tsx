@@ -3,7 +3,8 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { MapPin, Mail, Phone, Linkedin, Github, Instagram, Download } from 'lucide-react';
-import { useTranslations } from '@/context/TranslationsProvider';
+import Link from 'next/link';
+import { useTranslations } from '@/context/TranslationsProvider'; Import 'useTranslations'
 
 export default function ContactPage() {
   const t = useTranslations('ContactPage'); // Inisialisasi hook dengan nama grup di JSON

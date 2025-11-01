@@ -1,9 +1,9 @@
 'use client'; 
 
 import Image from 'next/image';
-import Link from 'next/link';// PERBAIKI DI SINI
+import { Link } from '@/navigation'; // PERBAIKI DI SINI
 import { motion } from 'framer-motion';
-import { useTranslations } from '@/context/TranslationsProvider'; // Import
+import { useTranslations } from 'next-intl'; // Import
 
 export default function AboutPage() {
   const t = useTranslations('AboutPage'); // Inisialisasi

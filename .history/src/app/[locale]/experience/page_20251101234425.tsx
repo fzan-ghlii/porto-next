@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { useTranslations } from '@/context/TranslationsProvider';
+import Link from 'next/link';
 
 // Data sekarang hanya berisi data non-teks dan 'kunci' terjemahan
 const experienceData = [
